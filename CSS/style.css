@@ -1,0 +1,60 @@
+body{
+    --color-primary: #ED7014;
+    --color-primary-dark: #d35e0b;
+    --color-secondary: #001f3f;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+
+    font: 500 1rem sans-serif;
+    font-size: 18px;
+}
+
+.topnav{
+    background: #333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color:  #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: var(--color-primary);
+}
+
+.topnav p{
+    float: right;
+    color:  #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.index-categories{
+    padding-top: 2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.calculater{
+    padding-bottom: 2rem;
+}
+
+.dayofweek p{
+    font-size: 20px;
+    color: var(--color-primary);
+    padding-bottom: 2rem;
+}
